@@ -1,4 +1,4 @@
-# Assignment 2 - Data ETL Pipeline  
+# Weather Data ETL Pipeline / Exploration Tool  
 
 ### Overview
 This utility collects weather data from SEVIR that was recorded by the GOES and NEXRAD satellites. With the help of Airflow and Crontab, a scheduling tool, we can use this tool to collect data from NOAA's AWS S3 bucket and create an extraction-transformation-loading (ETL) process to collect real-time data on daily basis.
@@ -44,7 +44,7 @@ Automated tests are usually placed into the `test`.
 
 
 ### Workflow
-<img src="https://github.com/BigDataIA-Spring2023-Team-05/Assignment-02/blob/main/Arch_Diag/my_ideal_cluster.png"></img>
+<img src="https://github.com/varshahindupur09/Weather-Data-Exploration-Tool/blob/main/Arch_Diag/my_ideal_cluster.png"></img>
 
 Codelabs link:
 https://codelabs-preview.appspot.com/?file_id=1d7batzqngkFxnNQz9ccwWyiu2uxTIYhbklPmDzcCiM4#0
@@ -53,7 +53,7 @@ https://codelabs-preview.appspot.com/?file_id=1d7batzqngkFxnNQz9ccwWyiu2uxTIYhbk
 
 ER Diagram for the SQL database tables - GOES metadata and NEXRAD metadata - which is storing the data for GOES and NEXRAD metadata.
 
-<img src="https://github.com/BigDataIA-Spring2023-Team-05/Assignment-01/blob/main/ERdiagram.drawio.png"></img>
+<img src="https://github.com/varshahindupur09/Weather-Data-Exploration-Tool/blob/main/ERdiagram.drawio.png"></img>
 
 ## How to run this project:
 1. Clone this repo locally `git clone <repo-url>`
